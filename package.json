@@ -1,0 +1,19 @@
+{
+  "name": "session-basic-types",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:Bilb/session-basic-types.git",
+  "author": "Audric Ackermann <audric@getsession.org>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/;  tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "libsodium-wrappers-sumo": "^0.7.15"
+  }
+}
